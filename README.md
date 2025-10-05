@@ -16,39 +16,22 @@ Responsive UI: Fully adaptive layout using Tailwind CSS utility classes, ensurin
 
 🛠️ Tech Stack
 Component
-
 Technology
-
 Notes
-
 Frontend
-
-React (Create React App)
-
+React
 Core application framework.
-
 Styling
-
 Tailwind CSS & PostCSS
-
 Utility-first CSS framework for rapid, custom styling.
-
 Routing
-
 react-router-dom
-
 Handles navigation between the Search List and Detail pages.
-
 API Client
-
 Axios
-
 Used for making asynchronous HTTP requests to TheMealDB.
-
 Icons
-
 lucide-react
-
 Clean, modern icons (Search, Heart, Utensils).
 
 ⚙️ Setup and Installation Guide (CRA Environment)
@@ -60,7 +43,7 @@ Install all necessary application and development dependencies in one go:
 npm install axios react-router-dom lucide-react
 npm install -D tailwindcss postcss autoprefixer
 
-2. Run the Application
+3. Run the Application
 Once all files are placed in their respective folders (src/, src/components/, src/pages/) and configuration is complete, start the development server:
 
 npm run start
